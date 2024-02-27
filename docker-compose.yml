@@ -2,6 +2,7 @@ version: '2.4'
 services: 
   apache:
     image: johncollegeacc769/real-estate-new:latest
+    ports:
     - '80:80'
     volumes: 
     - .:/usr/local/apache2/htdocs
